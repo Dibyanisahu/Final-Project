@@ -1,25 +1,38 @@
 # Final-Project
 
-## Topic: AI chatbot
+## Topic: Building a Business Contextual Chatbot from Scratch in Python (using NLTK)and seq to seq model.
 
-**Objective:** The project is about creating an AI contextual chatbot using NLP and deep learning that understands simple conversations on a topic. 
+**Objective:** The project is about creating an AI contextual chatbot using NLP and deep learning that understands customers queries related to the organisation.
 
-**Project by:** Dibyani Sahu
+**Motivation:** The idea of the project was not to create very high ended chatbot having excellent cognitive skills but using basic python and machine learning to help myself do my first deep learning, NLP project.
 
-**Project Schedule:**
+**Pre-requisites:** 
+NLTK(Natural Language Toolkit): Natural Language Processing with Python provides a practical introduction to programming for language processing.
 
-**Day1:** Reasearching and creating dataset.
+**Installation of NLTK:** 
+pip install nltk
 
-**Day2:** Setting up libraries
+import nltk
 
-**Day3-5:** Coding
+nltk.download('punkt')
 
-**Week2.1:** Training model
+nltk.download('wordnet')
 
-**2.2:** Validating
+from nltk.stem import WordNetLemmatizer
 
-**2.3:** Test the model
+lemmatizer = WordNetLemmatizer()
 
-**2.4:** Documentation
+import pickle
 
-**2.5:** Final Presentation
+import numpy as np
+
+from keras.models import Sequential
+
+from keras.layers import Dense, Activation, Dropout
+
+from keras.optimizers import SGD
+
+**How to run:** 
+Using jupyter notebook.
+
+
