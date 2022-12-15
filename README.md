@@ -1,8 +1,8 @@
 # Final-Project
 
-## Topic: Building a Business Contextual Chatbot from Scratch in Python (using NLTK)and seq to seq model.
+## Topic: Building a Business Contextual Chatbot from Scratch in Python (using NLTK)and seq to seq model and integrated in the web using flask integration.
 
-**Objective:** The project is about creating an AI contextual chatbot using NLP and deep learning that understands customers queries related to the organisation.
+**Objective:** The project is about creating an AI contextual chatbot using NLP and deep learning that understands customers queries related to the organisation. The chatbot is UI based.
 
 **Motivation:** The idea of the project was not to create very high ended chatbot having excellent cognitive skills but using basic python and machine learning to help myself do my first deep learning, NLP project.
 
@@ -31,6 +31,8 @@ from keras.models import Sequential
 from keras.layers import Dense, Activation, Dropout
 
 from keras.optimizers import SGD
+
+**Web Integration:** Using flask integration the chatbot is integrated into website.
 
 **How to run:** 
 Using jupyter notebook.
