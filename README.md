@@ -1,6 +1,6 @@
 # Final-Project
 
-## Topic: Building a Business Contextual Chatbot from Scratch in Python (using NLTK)and seq to seq model and integrated in the web using flask integration.
+## Topic: Building a Business Contextual Chatbot from Scratch in Python (using NLTK)using seq to seq model and integrated in the web using flask integration.
 
 **Objective:** The project is about creating an AI contextual chatbot using NLP and deep learning that understands customers queries related to the organisation. The chatbot is UI based.
 
