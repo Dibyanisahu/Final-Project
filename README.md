@@ -8,8 +8,9 @@
 
 **Pre-requisites:** 
 NLTK(Natural Language Toolkit): Natural Language Processing with Python provides a practical introduction to programming for language processing.
+Tensorflow, Python 3.7
 
-**Installation of NLTK:** 
+**Installation of NLTK and keras:** 
 pip install nltk
 
 import nltk
