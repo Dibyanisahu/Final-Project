@@ -1,6 +1,6 @@
 # Final-Project
 
-## Topic: Building a Business Contextual Chatbot from Scratch in Python (using NLTK)using seq to seq model and integrated in the web using flask integration.
+## Topic: Building a Business Contextual Chatbot from Scratch in Python (using NLTK)using seq to seq model and embedded in the web using flask integration.
 
 **Objective:** The project is about creating an AI contextual chatbot using NLP and deep learning that understands customers queries related to the organisation. The chatbot is UI based.
 
@@ -32,7 +32,7 @@ from keras.layers import Dense, Activation, Dropout
 
 from keras.optimizers import SGD
 
-**Web Integration:** Using flask integration the chatbot is integrated into website.
+**Web Integration:** Using flask integration the chatbot is embedded into website.
 
 **How to run:** 
 Using jupyter notebook.
