@@ -1,0 +1,183 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hello, I am Chatty, your virtual assistant, how can I help you?",
+        "I am Chatty, thanks for visiting",
+        "I am Chatty, Good to see you again",
+        "Hi there,this is Chatty at your service, how can I help?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "feeling",
+      "patterns": [
+        "How are you?",
+        "How does it feel inside?",
+        "Can you feel?"
+      ],
+      "responses": [
+        "I am good, thanks for asking",
+        "Do you mean, inside the computer, its great here!",
+        "I can't feel, I donot have sense organs,like you."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "What hours are you open?",
+        "What are your hours?",
+        "When are you open?",
+        "When does the office open?",
+        "What is the visiting time?"
+      ],
+      "responses": [
+        "We're open Monday to Friday 9am-6pm",
+        "Our hours are 9am-6pm Monday to Friday"
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "Which courses do you have?",
+        "What kinds of courses are available?",
+        "What do you teach?",
+        "What courses are offered?"
+      ],
+      "responses": [
+        "We offer Data Analytics, Web Development, Cybersecurity and UX/UI courses",
+        "We have Data Analytics, Web Development, Cybersecurity and UX/UI courses"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Are you cash only?",
+        "What are the payment options",
+        " What are the other payment options?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard, AMEX,most credit cards and Education Voucher(Germany)",
+        "Our financing options depend on your country of residence and the program you are applying for, contact our team through email ironhack@xyz.com or call at 1-800-2566"
+      ]
+    },
+    {
+      "tag": "opentoday",
+      "patterns": [
+        "Are you open today?",
+        "When do you open today?",
+        "What are your hours today?"
+      ],
+      "responses": [
+        "We're open Monday to Friday from 9am-6pm",
+        "Our hours are 9am-6pm Monday to Friday"
+      ]
+    },
+    {
+      "tag": "online or offline mode",
+      "patterns": [
+        "Is it online or offline class?",
+        "I'd like to do offline class",
+        "I want to do remote class?",
+        "I want to take online class"
+      ],
+      "responses": [
+        "We have both face to face and remote programs with a live virtual environment."
+      ]
+    },
+    {
+      "tag": "Startdate",
+      "patterns": [
+        "When does the program start?",
+        "What is the latest program start date?",
+        "When is the program starting?",
+        "What are the next bootcamp dates?",
+        "When does the new batch start?"
+      ],
+      "responses": [
+        "You can check the next dates on the website, visiting each campus and course page or call our admission team at 1-800-2566"
+      ]
+    },
+    {
+      "tag": "Scholarship",
+      "patterns": [
+        "Do you offer scholarship?",
+        "Is there any scholarship?",
+        "Do you give any scholarship?",
+        "Is there any scholarship option?"
+      ],
+      "responses": [
+        "Yes,10% for women and veterans in Data Analytics and Web Development in all campuses. For more information contact the admission team at 1-800-2566."
+      ]
+    },
+    {
+      "tag": "own laptop",
+      "patterns": [
+        "Do I need own laptop?",
+        "Is personal laptop required?",
+        "Will you give us laptop?"
+      ],
+      "responses": [
+        "Personal laptops are mandatory, Ironhack doesnt provide any laptop."
+      ]
+    },
+    {
+      "tag": "price",
+      "patterns": [
+        "what is the course fee?",
+        "How much is the cost?",
+        "What is the course price ?"
+      ],
+      "responses": [
+        "It is different for different campuses. Check the website for more details"
+      ]
+    },
+    {
+      "tag": "Campuses",
+      "patterns": [
+        "Where are the campuses?",
+        "Which places have the campuses?",
+        "what are the campuses?"
+      ],
+      "responses": [
+        "We have our campuses in Madrid, Barcelona, Lisboa, Sao Paulo, Mexico, Miami, Berlin, Amsterdam and Paris."
+      ]
+    }
+  ]
+}
